@@ -1,0 +1,161 @@
+/* src/Styles/Navbar.module.css */
+.navbar {
+    background-color: rgb(198 219 188);
+    padding: 0 30px; /* Removed top/bottom padding */
+    height: 60px; /* Set fixed height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #060808;
+    font-family: 'sometype mono' ;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.2s;
+}
+
+/* Removed color change, transform scale and text decoration */
+.title:hover {
+    /* Only cursor pointer is needed, which is already in .title class */
+}
+
+.leftSection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    font-family: 'sometype mono';
+    padding: 5px 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.breadcrumbItem {
+    font-size: 14px;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s;
+    white-space: nowrap;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+
+.breadcrumbItem:hover {
+    color: #008407;
+    text-decoration: underline;
+}
+
+.currentBreadcrumb {
+    font-weight: bold;
+    color: #008407;
+}
+
+.breadcrumbSeparator {
+    margin: 0 8px;
+    color: #34495e;
+}
+
+.navLinks {
+    display: flex; /* Use flexbox for horizontal alignment */
+    gap: 80px;
+    align-items: center; /* Align items vertically in center */
+  }
+
+.userMenu {
+    position: relative; /* Required for dropdown positioning */
+    
+}
+
+.userButton {
+    background: none;
+    border: none;
+    color: #ecf0f1;
+    font-size: 24px; /* Adjust size as needed */
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000; /* Ensure dropdown is above other elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.logoutButton {
+    padding: 8px 16px;
+    border: none;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+}
+
+
+.feedbackSection {
+    display: flex;
+    align-items: center;
+    gap:  10px;
+}
+
+.feedbackText {
+    font-size: 18px;
+    color: #060808;
+    font-family: 'sometype mono' ;
+    
+    font-weight: bold;
+    margin: 0;
+}
+
+.feedbackButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.feedbackButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+.syllabus {
+    display: flex;
+    overflow: hidden; 
+  }
+
+
+
