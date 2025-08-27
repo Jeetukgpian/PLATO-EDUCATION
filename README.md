@@ -35,11 +35,11 @@ Plato aims to provide an interactive, personalized, and AI-enhanced learning exp
 ## Architecture
 
 ```mermaid
-graph TD;
-  A[Frontend (React)] --API Calls--> B[Backend (Node.js/Express)]
-  B --DB Queries--> C[(MongoDB)]
-  B --Auth--> D[Firebase]
-  A --Static Assets--> A1[Public/Assets]
+graph TD
+  A[Frontend (React)] -- API Calls --> B[Backend (Node.js/Express)]
+  B -- DB Queries --> C[(MongoDB)]
+  B -- Auth --> D[Firebase]
+  A -- Static Assets --> A1[Public/Assets]
 ```
 
 - **Frontend:** React, TypeScript, Tailwind CSS
