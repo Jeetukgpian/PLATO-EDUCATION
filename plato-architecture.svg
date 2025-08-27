@@ -1,0 +1,26 @@
+<svg width="700" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="40" y="160" width="120" height="60" rx="15" fill="#e0e7ff" stroke="#3730a3" stroke-width="2"/>
+  <text x="100" y="195" font-size="16" text-anchor="middle" fill="#3730a3">User</text>
+  <rect x="200" y="140" width="160" height="100" rx="15" fill="#f0fdf4" stroke="#047857" stroke-width="2"/>
+  <text x="280" y="180" font-size="16" text-anchor="middle" fill="#047857">Frontend</text>
+  <text x="280" y="200" font-size="12" text-anchor="middle" fill="#047857">(React + TS)</text>
+  <rect x="400" y="140" width="180" height="100" rx="15" fill="#fef9c3" stroke="#b45309" stroke-width="2"/>
+  <text x="490" y="180" font-size="16" text-anchor="middle" fill="#b45309">Backend</text>
+  <text x="490" y="200" font-size="12" text-anchor="middle" fill="#b45309">(Node.js/Express)</text>
+  <rect x="620" y="100" width="70" height="60" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+  <text x="655" y="130" font-size="12" text-anchor="middle" fill="#334155">MongoDB</text>
+  <rect x="620" y="220" width="70" height="60" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+  <text x="655" y="250" font-size="12" text-anchor="middle" fill="#334155">Firebase</text>
+  <!-- Arrows -->
+  <line x1="160" y1="190" x2="200" y2="190" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="360" y1="190" x2="400" y2="190" stroke="#10b981" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="580" y1="170" x2="620" y2="130" stroke="#f59e42" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="580" y1="210" x2="620" y2="250" stroke="#f59e42" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="210" x2="360" y2="210" stroke="#10b981" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="200" y1="210" x2="160" y2="210" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>
